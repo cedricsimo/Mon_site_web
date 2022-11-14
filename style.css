@@ -1,0 +1,28 @@
+.container
+{
+     text-align: center;
+     display: block;
+     background-color: rgb(38, 61, 34);
+     color: beige;
+     
+    
+}
+.left-div
+{
+     display: inline-block;
+     max-width: 300px;
+     vertical-align: top;
+}
+.right-div
+{
+     display: inline-block;
+     max-width: 150px;
+}
+@media screen and (max-width: 600px)
+{
+     .left-div, .right-div
+     {
+          max-width: 100%;
+     }
+}
+
